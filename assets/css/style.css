@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "montserrat";
+    src: url("../font/Montserrat-Regular.ttf");
+}
+
+body{
+    font-family: "montserrat";
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.navPrincipal{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 1rem;
+    z-index: 1;
+    
+}
+
+.navSecondaire{
+    position: fixed;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.categorie li{
+    margin: 5px;
+    padding: 5px;
+    color: grey;
+    font-size: 18px;
+}
+
+.sousCategorie li{
+    font-size: 15px;
+}
+.sousCategorie li:hover{
+    background-color: rgb(194, 193, 193);
+    color: black;
+}
+
+.other
+{
+    color: rgb(82, 79, 79);
+}
+
+.other li{
+    padding: 5px;
+}
+
+
+.divPrincipale{
+    display: flex;
+    margin: 1rem;
+}
+
+.imgMain {
+    height: 700px;
+    width: 80%;
+    margin-left: 20%;
+    background-image: url("../img/jeans.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+}
+
+.imgMain h1{
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+
+.fontH1{
+    font-size: 2em;
+}
+
+.backDark{
+    background-color: black;
+    color: white;
+}
+
+.nbItems{
+    width: 80%; margin-left: 20%;
+}
+.nbItems p{
+    color: grey;
+    padding: 10px;
+}
+.imgItems{
+    width: 80%;
+    margin-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.imgItems div{
+    width: 25%;
+    padding: 1rem;
+}
+
+.imgItems img{
+    width: 100%;
+    
+}
+
+.etiquette{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.subscribe
+{
+    width: 80%;
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.subscribe input{
+    width: 98%;
+    /* padding: 5px; */
+    margin: 5px;
+}
+
+.subscribe button{
+    background-color: tomato;
+    color: white;
+    /* padding: 5px; */
+    margin: 5px;
+}
+
+.container{
+    width: 80%;
+    margin-left: 20%;
+    background-color: rgb(194, 193, 193);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact, .about, .store{
+    text-align: center;
+    width: calc(100%/3);
+}
+
+.contactForm input, button{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contactForm button{
+    background-color: black;
+    color: white;
+}
